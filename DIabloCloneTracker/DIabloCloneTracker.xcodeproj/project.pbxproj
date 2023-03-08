@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B00EE9329B8C05A00C15B62 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00EE9229B8C05A00C15B62 /* K.swift */; };
+		9B00EE9B29B8FA6E00C15B62 /* DiabloImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00EE9A29B8FA6E00C15B62 /* DiabloImageView.swift */; };
+		9B00EE9D29B8FC4800C15B62 /* DiabloStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00EE9C29B8FC4800C15B62 /* DiabloStatusView.swift */; };
+		9B00EEA129B903A100C15B62 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00EEA029B903A100C15B62 /* AlertItem.swift */; };
+		9BB3B79929B65CBD00479D14 /* DiabloCloneTrackerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B79829B65CBD00479D14 /* DiabloCloneTrackerNetwork.swift */; };
+		9BB3B79B29B65D4700479D14 /* DiabloCloneTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B79A29B65D4700479D14 /* DiabloCloneTrackerModel.swift */; };
+		9BB3B79D29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B79C29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift */; };
+		9BDE4B4C29908228006DD0B7 /* DIabloCloneTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B4B29908228006DD0B7 /* DIabloCloneTrackerApp.swift */; };
+		9BDE4B4E29908228006DD0B7 /* DiabloCloneTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B4D29908228006DD0B7 /* DiabloCloneTrackerView.swift */; };
+		9BDE4B502990822A006DD0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDE4B4F2990822A006DD0B7 /* Assets.xcassets */; };
+		9BDE4B532990822A006DD0B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDE4B522990822A006DD0B7 /* Preview Assets.xcassets */; };
+		9BDE4B5A299083EF006DD0B7 /* DiabloCloneSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B59299083EF006DD0B7 /* DiabloCloneSplashView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B00EE9229B8C05A00C15B62 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		9B00EE9A29B8FA6E00C15B62 /* DiabloImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloImageView.swift; sourceTree = "<group>"; };
+		9B00EE9C29B8FC4800C15B62 /* DiabloStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloStatusView.swift; sourceTree = "<group>"; };
+		9B00EEA029B903A100C15B62 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		9BB3B79829B65CBD00479D14 /* DiabloCloneTrackerNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloCloneTrackerNetwork.swift; sourceTree = "<group>"; };
+		9BB3B79A29B65D4700479D14 /* DiabloCloneTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloCloneTrackerModel.swift; sourceTree = "<group>"; };
+		9BB3B79C29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloCloneTrackerViewModel.swift; sourceTree = "<group>"; };
+		9BDE4B4829908228006DD0B7 /* DIabloCloneTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIabloCloneTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDE4B4B29908228006DD0B7 /* DIabloCloneTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIabloCloneTrackerApp.swift; sourceTree = "<group>"; };
+		9BDE4B4D29908228006DD0B7 /* DiabloCloneTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloCloneTrackerView.swift; sourceTree = "<group>"; };
+		9BDE4B4F2990822A006DD0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BDE4B522990822A006DD0B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BDE4B59299083EF006DD0B7 /* DiabloCloneSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloCloneSplashView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BDE4B4529908228006DD0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B00EEA229B907F200C15B62 /* DiabloCloneTrackerView */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE4B4D29908228006DD0B7 /* DiabloCloneTrackerView.swift */,
+				9B00EE9A29B8FA6E00C15B62 /* DiabloImageView.swift */,
+				9B00EE9C29B8FC4800C15B62 /* DiabloStatusView.swift */,
+			);
+			path = DiabloCloneTrackerView;
+			sourceTree = "<group>";
+		};
+		9B00EEA329B9081800C15B62 /* DiabloCloneTrackerModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BB3B79A29B65D4700479D14 /* DiabloCloneTrackerModel.swift */,
+			);
+			path = DiabloCloneTrackerModel;
+			sourceTree = "<group>";
+		};
+		9B00EEA429B9083200C15B62 /* DiabloCloneTrackerViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BB3B79C29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift */,
+			);
+			path = DiabloCloneTrackerViewModel;
+			sourceTree = "<group>";
+		};
+		9B00EEA529B9084600C15B62 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9BB3B79829B65CBD00479D14 /* DiabloCloneTrackerNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9BDE4B3F29908228006DD0B7 = {
+			isa = PBXGroup;
+			children = (
+				9BDE4B4A29908228006DD0B7 /* DIabloCloneTracker */,
+				9BDE4B4929908228006DD0B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BDE4B4929908228006DD0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE4B4829908228006DD0B7 /* DIabloCloneTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BDE4B4A29908228006DD0B7 /* DIabloCloneTracker */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE4B512990822A006DD0B7 /* Preview Content */,
+				9BDE4B4B29908228006DD0B7 /* DIabloCloneTrackerApp.swift */,
+				9BDE4B59299083EF006DD0B7 /* DiabloCloneSplashView.swift */,
+				9BDE4B4F2990822A006DD0B7 /* Assets.xcassets */,
+				9B00EEA229B907F200C15B62 /* DiabloCloneTrackerView */,
+				9B00EEA529B9084600C15B62 /* Network */,
+				9B00EEA329B9081800C15B62 /* DiabloCloneTrackerModel */,
+				9B00EEA429B9083200C15B62 /* DiabloCloneTrackerViewModel */,
+				9B00EE9229B8C05A00C15B62 /* K.swift */,
+				9B00EEA029B903A100C15B62 /* AlertItem.swift */,
+			);
+			path = DIabloCloneTracker;
+			sourceTree = "<group>";
+		};
+		9BDE4B512990822A006DD0B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE4B522990822A006DD0B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BDE4B4729908228006DD0B7 /* DIabloCloneTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDE4B562990822A006DD0B7 /* Build configuration list for PBXNativeTarget "DIabloCloneTracker" */;
+			buildPhases = (
+				9BDE4B4429908228006DD0B7 /* Sources */,
+				9BDE4B4529908228006DD0B7 /* Frameworks */,
+				9BDE4B4629908228006DD0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DIabloCloneTracker;
+			productName = DIabloCloneTracker;
+			productReference = 9BDE4B4829908228006DD0B7 /* DIabloCloneTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BDE4B4029908228006DD0B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9BDE4B4729908228006DD0B7 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BDE4B4329908228006DD0B7 /* Build configuration list for PBXProject "DIabloCloneTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BDE4B3F29908228006DD0B7;
+			productRefGroup = 9BDE4B4929908228006DD0B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BDE4B4729908228006DD0B7 /* DIabloCloneTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BDE4B4629908228006DD0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDE4B532990822A006DD0B7 /* Preview Assets.xcassets in Resources */,
+				9BDE4B502990822A006DD0B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BDE4B4429908228006DD0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B00EEA129B903A100C15B62 /* AlertItem.swift in Sources */,
+				9BB3B79929B65CBD00479D14 /* DiabloCloneTrackerNetwork.swift in Sources */,
+				9B00EE9D29B8FC4800C15B62 /* DiabloStatusView.swift in Sources */,
+				9B00EE9329B8C05A00C15B62 /* K.swift in Sources */,
+				9BB3B79B29B65D4700479D14 /* DiabloCloneTrackerModel.swift in Sources */,
+				9BB3B79D29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift in Sources */,
+				9B00EE9B29B8FA6E00C15B62 /* DiabloImageView.swift in Sources */,
+				9BDE4B4E29908228006DD0B7 /* DiabloCloneTrackerView.swift in Sources */,
+				9BDE4B4C29908228006DD0B7 /* DIabloCloneTrackerApp.swift in Sources */,
+				9BDE4B5A299083EF006DD0B7 /* DiabloCloneSplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BDE4B542990822A006DD0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BDE4B552990822A006DD0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BDE4B572990822A006DD0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DIabloCloneTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 6X534WQ33B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelplinio.DIabloCloneTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BDE4B582990822A006DD0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DIabloCloneTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 6X534WQ33B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelplinio.DIabloCloneTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BDE4B4329908228006DD0B7 /* Build configuration list for PBXProject "DIabloCloneTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDE4B542990822A006DD0B7 /* Debug */,
+				9BDE4B552990822A006DD0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDE4B562990822A006DD0B7 /* Build configuration list for PBXNativeTarget "DIabloCloneTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDE4B572990822A006DD0B7 /* Debug */,
+				9BDE4B582990822A006DD0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BDE4B4029908228006DD0B7 /* Project object */;
+}
