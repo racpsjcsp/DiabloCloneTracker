@@ -10,6 +10,9 @@ import SwiftUI
 struct K {
     
     static let apiURL = "https://diablo2.io/dclone_api.php"
+    
+    static let diabloCloneTrackerTitle = "Diablo Clone Tracker"
+    static let flameFillIcon = "flame.fill"
 
     enum DiabloColor {
         static var red: Color { return Color(.systemRed) }
@@ -38,7 +41,7 @@ struct K {
     }
     
     struct BellAlertIcon {
-        static let isOn = "bell-slash"
-        static let isOff = "bell"
+        static let bellSlash = "bell.slash"
+        static let bellFill = "bell.fill"
     }
 }

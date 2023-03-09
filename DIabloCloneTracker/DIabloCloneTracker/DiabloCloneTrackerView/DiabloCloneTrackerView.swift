@@ -14,16 +14,19 @@ struct DiabloCloneTrackerView: View {
     
     @State private var path = NavigationPath()
     @State private var isAlertOn = false
+
+    // timer for API call every 60 seconds to check for updates
+    let timer = Timer.publish(every: 60, on: .main, in: .common).autoconnect()
     
     var body: some View {
         NavigationStack {
             List {
-                ForEach(viewModel.diabloCloneData, id: \.self) { item in
-                    Section(header: Text(viewModel.getRegion(region: item.region))
-                        .foregroundColor(viewModel.applyRegionColor(region: item.region))
+                ForEach(viewModel.diabloCloneData, id: \.self) { data in
+                    Section(header: Text(viewModel.getRegion(region: data.region))
+                        .foregroundColor(viewModel.applyRegionColor(region: data.region))
                         .fontWeight(.bold)
                         .font(.system(size: 18))) {
-                            DiabloStatusView(progress: item.progress, ladder: viewModel.getLadder(ladder: item.ladder), hc: viewModel.getHC(hc: item.hc))
+                            DiabloStatusView(progress: data.progress, ladder: viewModel.getLadder(ladder: data.ladder), hc: viewModel.getHC(hc: data.hc))
                         }
                 }
                 
@@ -31,27 +34,20 @@ struct DiabloCloneTrackerView: View {
                 DiabloImageView()
             }
             .onAppear { viewModel.fetchData() }
+            .onReceive(timer, perform: { _ in
+                print(timer)
+                viewModel.fetchData()
+            })
             .redacted(reason: viewModel.isLoading ? .placeholder : [])
             .listStyle(.plain)
-            .navigationTitle("Uber Diablo Status")
+            .navigationTitle(K.diabloCloneTrackerTitle)
             .toolbar {
-                ToolbarItemGroup(placement: .navigationBarTrailing) {
-                    Button {
-                        viewModel.toggleAlert()
-                    } label: {
-                        Image(systemName: viewModel.isAlertOn ? "bell.fill" : "bell.slash")
-                    }
-                    // alert here...
-                }
+                ToolBarBellButtonView(viewModel: viewModel, isAlertOn: isAlertOn)
             }
         }
     }
     
-    func alertButtonTapped() {
-        isAlertOn = !isAlertOn
-        print(#function)
-        print(isAlertOn)
-    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -60,4 +56,3 @@ struct ContentView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
     }
 }
-

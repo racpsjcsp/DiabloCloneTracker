@@ -19,7 +19,7 @@ struct DiabloStatusView: View {
             Spacer()
 
             if progress == "6" {
-                Image(systemName: "flame.fill")
+                Image(systemName: K.flameFillIcon)
                     .foregroundColor(.orange)
             }
         }

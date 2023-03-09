@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+import UserNotifications
 
 class DiabloCloneTrackerViewModel: ObservableObject {
     
@@ -32,15 +33,28 @@ class DiabloCloneTrackerViewModel: ObservableObject {
                 DispatchQueue.main.async {
                     self.diabloCloneData = servers
                     self.isLoading = false
-                    print("bolinho viewModel")
                 }
                 
             }).store(in: &cancellables)
     }
     
-    func toggleAlert() {
-        alertItem = isAlertOn ? AlertContext.alertOn : AlertContext.alertOff
+    func alertButtonTapped() {
         isAlertOn = !isAlertOn
+        alertItem = isAlertOn ? AlertContext.alertOn : AlertContext.alertOff
+        toggleNotification()
+    }
+    
+    func toggleNotification() {
+        // code here
+        if isAlertOn {
+            print("alert ON")
+        } else {
+            print("alert OFF")
+        }
+    }
+    
+    func fireNotification() {
+        // code here
     }
     
     func getProgress(progressColor: String) -> Color {

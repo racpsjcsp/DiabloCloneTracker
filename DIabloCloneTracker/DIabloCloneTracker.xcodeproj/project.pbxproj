@@ -11,6 +11,7 @@
 		9B00EE9B29B8FA6E00C15B62 /* DiabloImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00EE9A29B8FA6E00C15B62 /* DiabloImageView.swift */; };
 		9B00EE9D29B8FC4800C15B62 /* DiabloStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00EE9C29B8FC4800C15B62 /* DiabloStatusView.swift */; };
 		9B00EEA129B903A100C15B62 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00EEA029B903A100C15B62 /* AlertItem.swift */; };
+		9BACEAD929BA1BB1009DD647 /* ToolBarBellButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BACEAD829BA1BB1009DD647 /* ToolBarBellButtonView.swift */; };
 		9BB3B79929B65CBD00479D14 /* DiabloCloneTrackerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B79829B65CBD00479D14 /* DiabloCloneTrackerNetwork.swift */; };
 		9BB3B79B29B65D4700479D14 /* DiabloCloneTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B79A29B65D4700479D14 /* DiabloCloneTrackerModel.swift */; };
 		9BB3B79D29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B79C29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift */; };
@@ -26,6 +27,7 @@
 		9B00EE9A29B8FA6E00C15B62 /* DiabloImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloImageView.swift; sourceTree = "<group>"; };
 		9B00EE9C29B8FC4800C15B62 /* DiabloStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloStatusView.swift; sourceTree = "<group>"; };
 		9B00EEA029B903A100C15B62 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		9BACEAD829BA1BB1009DD647 /* ToolBarBellButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarBellButtonView.swift; sourceTree = "<group>"; };
 		9BB3B79829B65CBD00479D14 /* DiabloCloneTrackerNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloCloneTrackerNetwork.swift; sourceTree = "<group>"; };
 		9BB3B79A29B65D4700479D14 /* DiabloCloneTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloCloneTrackerModel.swift; sourceTree = "<group>"; };
 		9BB3B79C29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabloCloneTrackerViewModel.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				9BDE4B4D29908228006DD0B7 /* DiabloCloneTrackerView.swift */,
 				9B00EE9A29B8FA6E00C15B62 /* DiabloImageView.swift */,
 				9B00EE9C29B8FC4800C15B62 /* DiabloStatusView.swift */,
+				9BACEAD829BA1BB1009DD647 /* ToolBarBellButtonView.swift */,
 			);
 			path = DiabloCloneTrackerView;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				9BB3B79D29B65F6500479D14 /* DiabloCloneTrackerViewModel.swift in Sources */,
 				9B00EE9B29B8FA6E00C15B62 /* DiabloImageView.swift in Sources */,
 				9BDE4B4E29908228006DD0B7 /* DiabloCloneTrackerView.swift in Sources */,
+				9BACEAD929BA1BB1009DD647 /* ToolBarBellButtonView.swift in Sources */,
 				9BDE4B4C29908228006DD0B7 /* DIabloCloneTrackerApp.swift in Sources */,
 				9BDE4B5A299083EF006DD0B7 /* DiabloCloneSplashView.swift in Sources */,
 			);
