@@ -12,7 +12,6 @@ import UserNotifications
 class DiabloCloneTrackerViewModel: ObservableObject {
     
     @Published private var cancellables = Set<AnyCancellable>()
-    
     @Published var diabloCloneData: [DiabloCloneTrackerModel] = []
     @Published var isLoading: Bool = true
     @Published var alertItem: AlertItem?
@@ -41,20 +40,15 @@ class DiabloCloneTrackerViewModel: ObservableObject {
     func alertButtonTapped() {
         isAlertOn = !isAlertOn
         alertItem = isAlertOn ? AlertContext.alertOn : AlertContext.alertOff
-        toggleNotification()
+        saveAlertConfig()
     }
     
-    func toggleNotification() {
-        // code here
-        if isAlertOn {
-            print("alert ON")
-        } else {
-            print("alert OFF")
-        }
+    func saveAlertConfig() {
+        UserDefaults.standard.set(isAlertOn, forKey: "isAlertOn")
     }
     
-    func fireNotification() {
-        // code here
+    func getAlertConfig() {
+        isAlertOn = UserDefaults.standard.bool(forKey: "isAlertOn")
     }
     
     func getProgress(progressColor: String) -> Color {
@@ -109,6 +103,11 @@ class DiabloCloneTrackerViewModel: ObservableObject {
            return K.GameDifficulty.softcore.rawValue
        }
    }
+    
+    func formatToSeconds(time: Int) -> String {
+        let seconds = time % 60
+        return String(format: "%02i", seconds)
+    }
    
    func convertUnixDate(unixDate: String) -> String {
        var localDate = ""

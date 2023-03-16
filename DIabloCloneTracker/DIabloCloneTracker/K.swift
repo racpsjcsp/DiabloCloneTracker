@@ -40,8 +40,8 @@ struct K {
         case nonLadder = "Non-Ladder"
     }
     
-    struct BellAlertIcon {
-        static let bellSlash = "bell.slash"
-        static let bellFill = "bell.fill"
+    struct SpeakerAlertIcon {
+        static let speakerSlash = "speaker.slash.fill"
+        static let speakerFill = "speaker.wave.3.fill"
     }
 }

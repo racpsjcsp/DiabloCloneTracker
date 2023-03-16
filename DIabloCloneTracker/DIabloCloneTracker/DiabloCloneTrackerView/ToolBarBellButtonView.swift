@@ -17,7 +17,7 @@ struct ToolBarBellButtonView: ToolbarContent {
                 viewModel.alertButtonTapped()
                 isAlertOn = true
             } label: {
-                Image(systemName: viewModel.isAlertOn ? K.BellAlertIcon.bellFill : K.BellAlertIcon.bellSlash)
+                Image(systemName: viewModel.isAlertOn ? K.SpeakerAlertIcon.speakerFill : K.SpeakerAlertIcon.speakerSlash)
             }
             .alert(viewModel.alertItem?.title ?? Text("Notification Warning"), isPresented: $isAlertOn, presenting: viewModel.alertItem) { _ in
                 
